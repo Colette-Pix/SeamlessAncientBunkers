@@ -1,0 +1,2 @@
+PASS original cleaned save loads without production mod; pawn identities unique; no custom jobs
+PASS save/reload after removal; maps=3; colonists=26

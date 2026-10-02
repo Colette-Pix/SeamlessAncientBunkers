@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>SAB_CollectPassenger</defName>
+    <driverClass>SeamlessAncientBunkers.JobDriver_CollectPassenger</driverClass>
+    <reportString>picking up TargetA for transport through an entrance.</reportString>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <carryThingAfterJob>true</carryThingAfterJob>
+  </JobDef>
+  <JobDef>
+    <defName>SAB_ExitConnected</defName>
+    <driverClass>SeamlessAncientBunkers.JobDriver_ConnectedExit</driverClass>
+    <reportString>leaving through TargetA.</reportString>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <carryThingAfterJob>true</carryThingAfterJob>
+  </JobDef>
+  <JobDef>
+    <defName>SAB_ReleaseAfterTransit</defName>
+    <driverClass>SeamlessAncientBunkers.JobDriver_ReleaseAfterTransit</driverClass>
+    <reportString>releasing TargetA.</reportString>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <carryThingAfterJob>true</carryThingAfterJob>
+  </JobDef>
+</Defs>

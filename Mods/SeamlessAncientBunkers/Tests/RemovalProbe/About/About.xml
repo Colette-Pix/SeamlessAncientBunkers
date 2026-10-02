@@ -1,0 +1,1 @@
+<ModMetaData><name>SAB isolated removal probe</name><author>Test harness</author><packageId>colet.sabremovalprobe</packageId><supportedVersions><li>1.6</li></supportedVersions><description>Runs only with the explicit sab-removal-test command-line flag in an isolated save directory.</description></ModMetaData>

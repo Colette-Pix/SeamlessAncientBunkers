@@ -1,0 +1,56 @@
+Seamless Ancient Bunkers
+
+Turn cleared Odyssey ancient bunkers into connected parts of your colony. Pawns walk through opened entrances for work, care, needs, supplies and group activities. Items and passengers travel physically.
+
+Requires RimWorld 1.6, Odyssey and Harmony. Other DLC and supported third-party mods are optional.
+
+GET STARTED
+Open and explore a bunker normally. Automatic colony traffic turns on after its defenders are cleared. Keep both entrances allowed, undraft autonomous workers and provide suitable destinations. Ordinary work priorities, policies, reservations and allowed areas still apply. Traffic status explains blocked routes. Manual traffic shutoff is saved.
+
+NORMAL ORDERS ACROSS LEVELS
+Keep a colonist selected, switch levels with = or -, then right-click normally. Pickup, supported manual work and hauling orders travel through opened entrances. Drafted colonists can use Go here across levels and remain drafted. Shift-queued supported destination orders survive crossings and saves. Accepted orders show the green confirmation circle and an entrance-to-target line until arrival. Blocked routes can use another accessible entrance.
+
+WORK, CARE AND PASSENGERS
+Connected work includes construction, maintenance, bills, research, growing, mining, cleaning, hunting, animal care, wardening and childcare. Workers can fetch missing supplies even when they begin beside the consumer. Manual hauling searches all eligible connected storage; automatic haulers can travel empty to collect ordinary goods on another floor. Doctors fetch surgery supplies as Doctor work; constructors fetch replacement components without Hauling. Corpses can be hauled, butchered or taken to an eligible grave on another floor.
+
+Rescuers carry living patients to suitable remote beds. Supported prisoner bed transfers and surface releases retain native custody rules. Babies, disabled mechs and other supported passenger jobs use the same physical carrying system. Childcare includes feeding, baby care and lessons. Adults, children and colony slaves retain native work and age restrictions. Babies and downed pawns do not travel independently.
+
+NEEDS, ANIMALS AND MECHS
+Pawns can seek food, suitable beds, medical rest, recreation, clothing, drugs, dining seats and supported special needs. Includes hemogen, deathrest, meditation, learning and optional Dubs hygiene destinations. Ordinary sleep prefers a usable assigned bed regardless of floor; medical rest retains appropriate medical-bed selection. Assigned deathrest caskets are recognized.
+Tamed animals can find food/beds and follow their masters. Trained animals can haul and rescue across floors. Handlers can move unpenned livestock to an accepted enclosed pen; pen filters and fencing remain local. Controlled Biotech mechs can work and return to compatible chargers. Command range includes the travel route; bandwidth remains native. Misc. Robots retain their assigned chargers.
+
+STOCK, BILLS AND TRADE
+Connected stock listings and supported bill counters recognize linked supplies and native item filters. Explicit bill output stockpiles can be on another floor; products are carried there. Eligible container contents can be fetched physically, including explicitly requested gene-bank packs.
+Ground traders list reachable remote goods and complete sales and payments immediately when you confirm, just like same-floor trading. No preliminary hauling or second confirmation is required. Orbital trade combines each floor's own powered beacon coverage; purchases still arrive on the native trade map. Gene assembly and other adjacency-based facilities still need their native local setup.
+
+GROUPS AND DEPARTURES
+Eligible pawns can join native parties and marriages across floors. Caravan, ritual and gravship gathering remain supported. Confirm caravan, pod or shuttle loading once. Eligible remote cargo and passengers gather physically, then normal packing/loading continues automatically. Pending selections survive saves and can be cancelled. Cancelling can leave already gathered goods on the destination floor; it never starts the cancelled departure.
+Unanchored gravship departure is blocked while colony occupants, prisoners or quest lodgers remain below, including contained pawns. Bring them up or use a grav anchor.
+
+DANGER AND ENEMIES
+Emergency rescue/work and fleeing may use a safe entrance despite a distant threat; enemies near the entrance, forbidden access, fire and unsafe landings still block travel. Assaulting raiders can pursue colony pawns or structures through opened entrances; manhunters and supported friendly combatants can also cross. Native exit journeys retain carried loot/passengers. Murderous rage retains its target across a reachable entrance; selected wandering mental states may cross nearby safe entrances. This is not universal support for every guest, quest or modded group AI.
+Incoming hostile pursuers cannot open closed ancient blast doors and must break through. Native defenders retain their ordinary access. Revealed blast doors become claimable after clearance; hacking locks still apply.
+
+ELECTRICITY AND PLUMBING THROUGH ENTRANCES
+Run a power conduit to the edge of the opened hatch's 3x3 footprint above and to the ladder's footprint below. For Dubs Bad Hygiene, connect plumbing at both ends the same way. Lines inside the footprint count; diagonal-only contact does not. Normal and hidden lines work.
+Connected networks share real generation, battery storage, water and sewage services. Native capacity and water-quality rules apply. Removing a line or sealing the connection disconnects utilities; disabling pawn traffic does not. Dubs is optional.
+
+KEYBOARD LEVELS
+= moves up, - moves down; both wrap. The surface is level 0, with bunkers numbered -1, -2 and onward in first-entry order. Numbers are saved; each surface has its own stack. Rebind these under Keyboard configuration. Switching levels never explores an unopened map.
+
+OPTIONAL INTEGRATIONS
+Explicit adapters support Quarry, Processor Framework, Misc. Robots, Dubs Bad Hygiene and Vanilla Psycasts Expanded enthralled skeleton pursuit. Adaptive Storage acceptance checks are respected. These mods are not bundled. Arbitrary custom work givers, storage and group frameworks are not automatically supported.
+
+BED AVAILABILITY
+The needs-colonist-beds warning counts colonists and sleeping beds across connected floors, including with the BunkBeds code bundled in Vanilla Gravship Expanded - Chapter 1. Bunk beds retain their individual sleeping slots. Medical beds remain reserved for medical use and do not hide an ordinary bed shortage.
+
+EXISTING SAVES AND SCOPE
+Restart RimWorld after updating. Existing explored bunkers and saves are supported; no new game is required. Before removing the mod, use Prepare this save for mod removal in its settings, save, quit, then disable it.
+Physical maps remain separate. Rooms, temperature, gas, fire propagation, ranged combat, pen nutrition and adjacent-building effects are not merged. No multiplayer support or unopened-map travel is claimed. Floor painting can use local dye or ordinary hauled supplies; it has no dedicated missing-dye request.
+
+TESTING
+The 0.5.1 corrections and earlier connected-map features were checked in isolated RimWorld 1.6.4871 saves, including fresh-process passenger and partial-cargo reloads, rescue in both directions, slave travel, mech charging, prisoner release/bed transfer, pen placement, party joining, queued orders, alternate-entrance recovery, cargo staging, repair/refuel, bill output, childcare, native trade, beacon coverage and special needs. The included connected-services and connected-transit reports distinguish completed engine tests from source-supported and untested combinations. Every DLC/mod interaction is not certified.
+
+Version 0.5.2
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <KeyBindingDef>
+    <defName>SAB_LevelUp</defName>
+    <label>bunker level up (wrap)</label>
+    <category>GameMapCamera</category>
+    <defaultKeyCodeA>Equals</defaultKeyCodeA>
+  </KeyBindingDef>
+  <KeyBindingDef>
+    <defName>SAB_LevelDown</defName>
+    <label>bunker level down (wrap)</label>
+    <category>GameMapCamera</category>
+    <defaultKeyCodeA>Minus</defaultKeyCodeA>
+  </KeyBindingDef>
+</Defs>

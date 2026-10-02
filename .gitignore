@@ -1,0 +1,34 @@
+# This repository lives inside a RimWorld installation. Ignore new root
+# entries by default so game updates, DLC, local saves, investigation runs,
+# decompiled third-party code, and packaged releases cannot be staged.
+/*
+!/.gitignore
+!/AGENTS.md
+!/README.md
+!/LICENSE
+!/Mods/
+!/BunkerPublish/
+
+# Keep only this mod; exclude all other installed mods and local fixtures.
+/Mods/*
+!/Mods/SeamlessAncientBunkers/
+
+# Keep the publishing tools' source, not their binaries or Steam runtime.
+/BunkerPublish/*
+!/BunkerPublish/DirectSource/
+!/BunkerPublish/HelperSource/
+
+# Generated build and editor files. The mod's distributed Assemblies
+# directory remains eligible for tracking.
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.suo
+*.log
+*.tmp
+*.bak
+*.rws
+*.rws.old
+Thumbs.db
+.DS_Store

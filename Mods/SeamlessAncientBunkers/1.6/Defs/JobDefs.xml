@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>SAB_Dine</defName>
+    <driverClass>SeamlessAncientBunkers.JobDriver_Dine</driverClass>
+    <reportString>taking a meal to a table.</reportString>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <carryThingAfterJob>true</carryThingAfterJob>
+  </JobDef>
+  <JobDef>
+    <defName>SAB_Pursue</defName>
+    <driverClass>SeamlessAncientBunkers.JobDriver_Pursue</driverClass>
+    <reportString>pursuing enemies through TargetA.</reportString>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <carryThingAfterJob>true</carryThingAfterJob>
+  </JobDef>
+  <JobDef>
+    <defName>SAB_Travel</defName>
+    <driverClass>SeamlessAncientBunkers.JobDriver_BunkerTravel</driverClass>
+    <reportString>travelling through TargetA.</reportString>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <carryThingAfterJob>true</carryThingAfterJob>
+  </JobDef>
+  <JobDef>
+    <defName>SAB_Collect</defName>
+    <driverClass>SeamlessAncientBunkers.JobDriver_Collect</driverClass>
+    <reportString>collecting TargetA for the linked map.</reportString>
+    <dropThingBeforeJob>false</dropThingBeforeJob>
+    <carryThingAfterJob>true</carryThingAfterJob>
+  </JobDef>
+</Defs>

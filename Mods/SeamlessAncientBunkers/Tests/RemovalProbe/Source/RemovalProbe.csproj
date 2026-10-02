@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>net472</TargetFramework><LangVersion>latest</LangVersion><GameDir Condition="'$(GameDir)' == ''">$(MSBuildThisFileDirectory)..\..\..</GameDir><OutputPath>..\Assemblies</OutputPath><AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath><DebugType>none</DebugType></PropertyGroup>
+ <ItemGroup>
+ <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+ <Reference Include="Assembly-CSharp"><HintPath>$(GameDir)\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+ <Reference Include="netstandard"><HintPath>$(GameDir)\RimWorldWin64_Data\Managed\netstandard.dll</HintPath><Private>false</Private></Reference>
+ <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameDir)\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+ </ItemGroup>
+</Project>
+

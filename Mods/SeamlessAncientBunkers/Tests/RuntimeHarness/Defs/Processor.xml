@@ -1,0 +1,13 @@
+<Defs>
+ <ProcessorFramework.ProcessDef>
+  <defName>SABTestProcess</defName><thingDef>ComponentIndustrial</thingDef><ingredientFilter><thingDefs><li>Steel</li></thingDefs></ingredientFilter><processDays>0.02</processDays><usesTemperature>false</usesTemperature>
+ </ProcessorFramework.ProcessDef>
+ <ThingDef ParentName="BuildingBase">
+  <defName>SABTestProcessor</defName><label>test processor</label><thingClass>Building</thingClass><tickerType>Rare</tickerType><drawerType>MapMeshAndRealTime</drawerType><size>(1,1)</size><passability>PassThroughOnly</passability>
+  <graphicData><texPath>Things/Building/Production/FermentingBarrel</texPath><graphicClass>Graphic_Multi</graphicClass></graphicData>
+  <statBases><MaxHitPoints>100</MaxHitPoints></statBases>
+  <comps><li Class="ProcessorFramework.CompProperties_Processor"><capacity>5</capacity><processes><li>SABTestProcess</li></processes></li><li Class="CompProperties_Forbiddable"/></comps>
+ </ThingDef>
+</Defs>
+
+

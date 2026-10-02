@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ConceptDef ParentName="NotedOpportunisticBase">
+    <defName>SAB_BunkerTravel</defName>
+    <label>Ancient bunker travel and levels</label>
+    <priority>90</priority>
+    <helpText>Once an opened ancient bunker is cleared of threats, automatic traffic turns on. Undrafted colonists, children and supported robots can travel for ordinary work and needs. Animals can travel for food, beds, following and wandering. Select a hatch for traffic controls or Traffic status.\n\nPress {Key:SAB_LevelUp} to go up a level, or {Key:SAB_LevelDown} to go down. The default keys are = and -. Both directions loop around. The surface is level 0; bunkers receive -1, -2 and so on in the order they are first entered. These shortcuts change your view, not your pawns' location, and never open unexplored bunkers. Change the keys in Options - Keyboard configuration.\n\nKeep both entrances allowed and safe, and undraft pawns for automatic travel. A pawn still needs a suitable destination, such as an available bed. Selected caravan and ritual participants gather before their group activity begins. Ancient blast doors can be claimed after the bunker is cleared; their hacking locks still work normally.</helpText>
+  </ConceptDef>
+</Defs>
